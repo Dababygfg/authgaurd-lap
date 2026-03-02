@@ -1,0 +1,20 @@
+{
+  "name": "authguard-lap-backend",
+  "version": "1.0.0",
+  "description": "Backend for AuthGuard-LAP license management system",
+  "main": "netlify/functions/api.js",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'No build step required for Netlify Functions'"
+  },
+  "dependencies": {
+    "@netlify/functions": "^2.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.3.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  }
+}
